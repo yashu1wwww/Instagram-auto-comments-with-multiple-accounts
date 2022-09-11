@@ -12,7 +12,7 @@ driver.find_element_by_name('password').send_keys('pass123') #enter your insta a
 sleep(1)
 driver.find_element_by_xpath("//button[@type='submit']").click()
 sleep(3)
-driver.get("https://www.instagram.com/p/ChhiiiKvXHJ/?utm_source=ig_web_copy_link") #enter your needed post url
+driver.get("https://www.instagram.com/p/CiRXFqzvOi-/?utm_source=ig_web_copy_link") #replace with your needed post url
 sleep(2)
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
 sleep(1)

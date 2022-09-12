@@ -16,8 +16,84 @@ driver.get("https://www.instagram.com/p/CiRXFqzvOi-/?utm_source=ig_web_copy_link
 sleep(2)
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("amazing") #change text to your required
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("amazing") #change text to your required and do in below also
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+sleep(7)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("progress")
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+sleep(7)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("trying to new idea")
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+sleep(7)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("amazing")
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
 sleep(8)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("fabulous")
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+sleep(8)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("superb")
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+sleep(8)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("excellent")
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+sleep(8)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("marvelous")
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+sleep(8)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("awesome")
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+sleep(7)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("excellent")
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+sleep(30)
+
+
+
 

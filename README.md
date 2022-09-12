@@ -5,7 +5,7 @@ Instagram auto comment with python
 https://youtu.be/_lmfetikuqs
 
 change 9,10 line with your non two factor authentication username & password 
-and 15 line with url and 19 line with required comment
+and 15 line with url and 19 line change to your needed comment and do it in below code also
 
 After download the chromedriver(https://chromedriver.chromium.org/downloads extract these to downloaded folder)and with matches your chrome version of your pc
 

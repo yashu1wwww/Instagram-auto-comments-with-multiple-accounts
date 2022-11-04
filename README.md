@@ -4,7 +4,7 @@ Instagram auto comment with python
 👉Instagram Auto Comment Video
 https://youtu.be/MUKOPxb5REM
 
-change 13th & 14th line with your username & password also in 81th & 82th with your username & password (note:- the accounts which dont have 2-factor authententication)
+change 17th & 18th line with your username & password also in 82 & 83 line with your username & password (note:- use accounts which dont have 2 factor authentication)
 
 replace with your required insta post in url.txt file which you want to auto comments on that post....
 

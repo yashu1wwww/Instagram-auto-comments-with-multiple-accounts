@@ -2,97 +2,154 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from time import sleep
+import random
+
+commentsDict = ['good','amazing one','keep going','excellent','next video please','sub to your channel','shared to others','made my day','keep it up','sensational','rock it','challenge it','post video daily','work was amazing','needed more edit','edit was awesome',
+'what a video man','watched yesterday','your are genious','faster than light','your work needed success','new fan of you','keep rock dude','copy cat','link the video','listening','writing','reading','playing',] #replace with your words
 
 driver = webdriver.Chrome()
-driver.get('https://www.instagram.com')
-sleep(1)
-driver.find_element_by_name('username').send_keys('usernone')  #enter your insta acc
-driver.find_element_by_name('password').send_keys('pass123') #enter your insta acc 
+driver.get("https://www.instagram.com")
+sleep(3)
+driver.find_element_by_name('username').send_keys('dlopoele') #enter your insta acc
+driver.find_element_by_name('password').send_keys('fff123$%') #enter your insta pass
 #note no two factor authentication is on when automation goes create another insta acc
 sleep(1)
 driver.find_element_by_xpath("//button[@type='submit']").click()
+sleep(9)
+
+with open("urls.txt") as f:
+    for url in f:
+        driver.get(url)  
+        
+driver.implicitly_wait(6)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys(random.choice(commentsDict))
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+sleep(4)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys(random.choice(commentsDict))
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+sleep(4)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys(random.choice(commentsDict))
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+sleep(4)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys(random.choice(commentsDict))
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+
+sleep(4)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys(random.choice(commentsDict))
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
+
+sleep(4)
+
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys(random.choice(commentsDict))
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+
 sleep(3)
-driver.get("https://www.instagram.com/p/CiRXFqzvOi-/?utm_source=ig_web_copy_link") #replace with your needed post url
-sleep(2)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
-sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("amazing") #change text to your required and do in below also
-sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
 
-sleep(7)
+driver.close()
 
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
+driver = webdriver.Chrome()
+driver.get("https://www.instagram.com")
+sleep(3)
+driver.find_element_by_name('username').send_keys('usernone212') #replace with your insta acc
+driver.find_element_by_name('password').send_keys('pass7#$%') #replace with your insta password
+#note no two factor authentication is on when automation goes create another insta acc
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("progress")
-sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
+driver.find_element_by_xpath("//button[@type='submit']").click()
+sleep(9)
 
-sleep(7)
-
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
-sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("trying to new idea")
-sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
-
-sleep(7)
+with open("urls.txt") as f:
+    for url in f:
+        driver.get(url)  
+        
+driver.implicitly_wait(6)
 
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("amazing")
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
 
-sleep(8)
+sleep(4)
 
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("fabulous")
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
 
-sleep(8)
+sleep(4)
 
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("superb")
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
 
-sleep(8)
+sleep(4)
 
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("excellent")
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
 
-sleep(8)
+sleep(4)
 
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("marvelous")
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
 
-sleep(8)
+
+sleep(4)
 
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("awesome")
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
 
-sleep(7)
+
+sleep(4)
 
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').click()
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys("excellent")
+driver.find_element(By.XPATH,'//*[@class ="_aao9"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aao9"]//button[@type="submit"]').click()
 
-sleep(30)
+driver.close()
+
+
 
 
 

@@ -4,8 +4,9 @@ Instagram auto comment with python
 👉Instagram Auto Comment Video
 https://youtu.be/MUKOPxb5REM
 
-change 9,10 line with your non two factor authentication username & password 
-and 15 line with url and 19 line change to your needed comment and do it in below code also
+change 13th & 14th line with your username & password also in 81th & 82th with your username & password (note:- the accounts which dont have 2-factor authententication)
+
+replace with your required insta post in url.txt file which you want to auto comments on that post....
 
 After download the chromedriver(https://chromedriver.chromium.org/downloads extract these to downloaded folder)and with matches your chrome version of your pc
 

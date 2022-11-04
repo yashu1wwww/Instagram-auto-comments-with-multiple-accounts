@@ -1,4 +1,4 @@
-here i added 2 auto accounts which auto login and put comments to the post if you want more comments in diff accounts means copy line from 78 to 148 and paste in 150 line and dont forgot to replace insta username & password
+#here i added 2 auto accounts which auto login and put comments to the post if you want more comments in diff accounts means copy line from 78 to 148 and paste in 150 line and dont forgot to replace insta username & password
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys

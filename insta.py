@@ -30,8 +30,23 @@ driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//button[@type="submit"]').click()
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div').click()
 
+sleep(4)
+
+driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
+sleep(1)
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div').click()
+
+sleep(4)
+
+driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
+sleep(1)
+driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
+sleep(1)
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div').click()
 sleep(4)
 
 driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
@@ -46,7 +61,7 @@ driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//button[@type="submit"]').click()
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div').click()
 
 sleep(4)
 
@@ -54,23 +69,7 @@ driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//button[@type="submit"]').click()
-
-sleep(4)
-
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
-sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
-sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//button[@type="submit"]').click()
-
-sleep(4)
-
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
-sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
-sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//button[@type="submit"]').click()
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div').click()
 
 sleep(5)
 
@@ -95,7 +94,7 @@ driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//button[@type="submit"]').click()
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div').click()
 
 sleep(4)
 
@@ -103,7 +102,7 @@ driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//button[@type="submit"]').click()
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div').click()
 
 sleep(4)
 
@@ -111,7 +110,7 @@ driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//button[@type="submit"]').click()
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div').click()
 
 sleep(4)
 
@@ -119,7 +118,7 @@ driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//button[@type="submit"]').click()
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div').click()
 
 sleep(4)
 
@@ -127,7 +126,7 @@ driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//button[@type="submit"]').click()
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div').click()
 
 sleep(4)
 
@@ -135,7 +134,7 @@ driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//button[@type="submit"]').click()
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div').click()
 
 sleep(4)
 
@@ -143,6 +142,6 @@ driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').click()
 sleep(1)
 driver.find_element(By.XPATH,'//*[@class ="_aidk"]//textarea').send_keys(random.choice(commentsDict))
 sleep(1)
-driver.find_element(By.XPATH,'//*[@class ="_aidk"]//button[@type="submit"]').click()
+driver.find_element_by_xpath('/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div').click()
 
 driver.close()

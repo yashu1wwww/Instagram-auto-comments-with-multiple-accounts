@@ -9,7 +9,7 @@ https://youtu.be/c9MAJpax5R0
 
 https://youtu.be/MUKOPxb5REM
 
-change 17th & 18th line with your username & password also in 82 & 83 line with your username & password (note:- use accounts which dont have 2 factor authentication)
+change 17th & 18th line with your username & password also in 81 & 82 line with your username & password (note:- use accounts which dont have 2 factor authentication)
 
 replace with your required insta post in url.txt file which you want to auto comments on that post....
 
